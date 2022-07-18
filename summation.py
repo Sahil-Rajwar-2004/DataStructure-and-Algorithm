@@ -3,7 +3,7 @@ class Solution:
     def sum_2_no(self,nums:list,target:int):
         for i in range(0,len(nums)):
             for j in range(0,len(nums)):
-                if (nums[i]+nums[j] == target):
+                if (nums[i]+nums[j] == target) & (i != j):
                     part = []
                     part.append(nums[i])
                     part.append(nums[j])
