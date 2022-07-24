@@ -1,5 +1,4 @@
 def do_reverse(args:list,begin,end):
-
     while begin < end:
         args[begin],args[end] = args[end],args[begin]
         begin += 1
