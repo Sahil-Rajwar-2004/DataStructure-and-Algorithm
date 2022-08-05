@@ -1,4 +1,4 @@
-def binary_search(args,target):
+def binary_search(args:list,target:int):
     lower = args[0]
     upper = args[len(args)-1]
     if args[0] == target:
