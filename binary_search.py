@@ -15,3 +15,6 @@ def binary_search(args,target):
             elif args[mid] < target:
                 lower = mid+1
         return f"{target} is not found in {args}"
+    
+print(binary_search([1,2,3,4,5],3))
+print(binary_search([1,2,3,4,5],6))
